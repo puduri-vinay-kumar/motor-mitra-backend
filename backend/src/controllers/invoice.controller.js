@@ -3,7 +3,7 @@ const Motor = require('../models/Motor');
 const Membership = require('../models/Membership');
 const { v4: uuidv4 } = require('uuid');
 
-const PRICE_PER_MOTOR = 2000;
+const PRICE_PER_MOTOR = 10;
 const GST_PERCENT = 5;
 
 exports.generateInvoice = async (req, res) => {
